@@ -1,0 +1,157 @@
+# Админка Slepok.kz (Sveltia CMS)
+# Репозиторий: kojulia1988-ctrl/slepok-kz
+backend:
+  name: github
+  repo: kojulia1988-ctrl/slepok-kz
+  branch: main
+
+# Куда складываются фото, загруженные через админку
+media_folder: images/uploads
+public_folder: images/uploads
+
+collections:
+  - name: site
+    label: Сайт
+    files:
+      - name: content
+        label: Тексты, цены и фото сайта
+        file: content/site.json
+        format: json
+        fields:
+          - label: Контакты
+            name: contacts
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "WhatsApp (только цифры, с 7 в начале)", name: whatsapp, widget: string }
+              - { label: "Телефон для показа на сайте", name: phoneDisplay, widget: string, required: false }
+              - { label: "Город", name: city, widget: string, required: false }
+              - { label: "Ссылка на Instagram", name: instagram, widget: string, required: false }
+              - { label: "Адрес студии", name: address, widget: string, required: false }
+
+          - label: Первый экран
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string }
+              - { label: "Подзаголовок", name: subtitle, widget: text }
+              - { label: "Главное фото", name: image, widget: image, required: false }
+              - label: "Плашки доверия"
+                name: trust
+                widget: list
+                fields:
+                  - { label: "Текст", name: text, widget: string }
+                  - { label: "Иконка (служебное, не менять: years, custom, handmade, city)", name: icon, widget: string, required: false }
+
+          - label: Каталог
+            name: categories
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - { label: "Название раздела", name: title, widget: string }
+              - { label: "Код раздела (латиницей, без пробелов)", name: id, widget: string }
+              - label: Работы в разделе
+                name: items
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { label: "Название", name: name, widget: string }
+                  - { label: "Фото", name: image, widget: image, required: false }
+                  - { label: "Описание", name: description, widget: text, required: false }
+                  - { label: "Цена в тенге (пусто - на сайте будет «Цена уточняется»)", name: price, widget: number, value_type: int, required: false }
+                  - { label: "Количество слепков, напр. 4 (3D)", name: countNote, widget: string, required: false }
+                  - { label: "Размер, напр. 65×57 см", name: sizeNote, widget: string, required: false }
+                  - { label: "Срок изготовления", name: termNote, widget: string, required: false }
+                  - label: "Что входит в цену"
+                    name: includes
+                    widget: select
+                    multiple: true
+                    required: false
+                    options:
+                      - { label: "Материалы для изготовления слепка", value: materials }
+                      - { label: "Снятие формы", value: molding }
+                      - { label: "Создание объёмной модели", value: volumeModel }
+                      - { label: "Ручная обработка", value: handProcessing }
+                      - { label: "Финишная обработка", value: finishProcessing }
+                      - { label: "Выбранное оформление", value: design }
+                      - { label: "Подготовка готовой композиции", value: compositionPrep }
+                      - { label: "Упаковка", value: packaging }
+                  - { label: "Код работы (латиницей, без пробелов, не повторяться, напр. family-new-1)", name: id, widget: string }
+
+          - label: Галерея
+            name: gallery
+            widget: list
+            summary: "{{category}}"
+            fields:
+              - { label: "Подпись", name: category, widget: string }
+              - { label: "Фото", name: image, widget: image, required: false }
+              - { label: "Код (латиницей, не повторяться, напр. g10)", name: id, widget: string }
+
+          - label: Можно дополнить заказ
+            name: additionalServices
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { label: "Услуга", name: name, widget: string }
+              - { label: "Цена в тенге (пусто - «уточняется»)", name: price, widget: number, value_type: int, required: false }
+              - { label: "Код (латиницей, не повторяться)", name: id, widget: string }
+
+          - { label: "Показывать блок сравнения комплектов", name: showPackages, widget: boolean, required: false }
+          - label: Комплекты (Базовый / Премиум / VIP)
+            name: packages
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { label: "Название", name: name, widget: string }
+              - { label: "Выделить как самый выгодный", name: highlight, widget: boolean, required: false }
+              - { label: "Количество слепков", name: itemsCount, widget: string, required: false }
+              - { label: "Размер", name: size, widget: string, required: false }
+              - { label: "Оформление", name: design, widget: string, required: false }
+              - { label: "Рамка", name: frame, widget: string, required: false }
+              - { label: "Дополнительно", name: extras, widget: string, required: false }
+              - { label: "Срок изготовления", name: productionTime, widget: string, required: false }
+              - { label: "Цена в тенге", name: price, widget: number, value_type: int, required: false }
+              - { label: "Код (латиницей)", name: id, widget: string }
+
+          - label: Как проходит заказ
+            name: steps
+            widget: list
+            summary: "{{number}}. {{title}}"
+            fields:
+              - { label: "Номер шага", name: number, widget: number, value_type: int }
+              - { label: "Заголовок", name: title, widget: string }
+              - { label: "Текст", name: text, widget: text, required: false }
+
+          - label: Почему выбирают нас
+            name: whyUs
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - { label: "Заголовок", name: title, widget: string }
+              - { label: "Текст", name: text, widget: text, required: false }
+
+          - label: Вопросы и ответы
+            name: faq
+            widget: list
+            summary: "{{question}}"
+            fields:
+              - { label: "Вопрос", name: question, widget: string }
+              - { label: "Ответ (пусто - «Ответ уточняется» и кнопка WhatsApp)", name: answer, widget: text, required: false }
+
+          - label: Финальный блок
+            name: finalCta
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок", name: title, widget: string }
+              - { label: "Текст", name: text, widget: text }
+
+          - label: "Что входит в стоимость (справочник, служебное)"
+            name: masterIncludes
+            widget: list
+            summary: "{{label}}"
+            fields:
+              - { label: "Название пункта", name: label, widget: string }
+              - { label: "Код (не менять)", name: key, widget: string }
+              - { label: "Иконка (не менять)", name: icon, widget: string }
