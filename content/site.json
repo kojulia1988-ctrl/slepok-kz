@@ -1,0 +1,746 @@
+{
+  "contacts": {
+    "whatsapp": "77072972258",
+    "phoneDisplay": "+7 707 297 22 58",
+    "city": "Алматы",
+    "instagram": "",
+    "address": ""
+  },
+  "hero": {
+    "title": "Сохраним прикосновение на всю жизнь",
+    "subtitle": "Объёмные слепки рук и ног — уникальная память о ваших близких, созданная вручную.",
+    "image": "",
+    "trust": [
+      {
+        "icon": "years",
+        "text": "12+ лет создаём семейные слепки"
+      },
+      {
+        "icon": "custom",
+        "text": "Индивидуальное изготовление"
+      },
+      {
+        "icon": "handmade",
+        "text": "Ручная работа"
+      },
+      {
+        "icon": "city",
+        "text": "Алматы"
+      }
+    ]
+  },
+  "masterIncludes": [
+    {
+      "key": "materials",
+      "icon": "materials",
+      "label": "Материалы для изготовления слепка"
+    },
+    {
+      "key": "molding",
+      "icon": "molding",
+      "label": "Снятие формы"
+    },
+    {
+      "key": "volumeModel",
+      "icon": "volume",
+      "label": "Создание объёмной модели"
+    },
+    {
+      "key": "handProcessing",
+      "icon": "hand",
+      "label": "Ручная обработка"
+    },
+    {
+      "key": "finishProcessing",
+      "icon": "finish",
+      "label": "Финишная обработка"
+    },
+    {
+      "key": "design",
+      "icon": "design",
+      "label": "Выбранное оформление"
+    },
+    {
+      "key": "compositionPrep",
+      "icon": "composition",
+      "label": "Подготовка готовой композиции"
+    },
+    {
+      "key": "packaging",
+      "icon": "packaging",
+      "label": "Упаковка"
+    }
+  ],
+  "categories": [
+    {
+      "id": "family",
+      "title": "Семейные слепки",
+      "items": [
+        {
+          "id": "family-tree",
+          "name": "Семейное дерево",
+          "image": "images/catalog/family-tree.jpg",
+          "description": "Багет: широкий классический бело-золотой. Дополнения: имена и метрики членов семьи, год создания композиции.",
+          "price": 119000,
+          "includes": [],
+          "sizeNote": "65×57 см",
+          "termNote": "",
+          "countNote": "4 (3D)"
+        },
+        {
+          "id": "family-two-brothers",
+          "name": "Два братишки",
+          "image": "images/catalog/family-two-brothers.jpg",
+          "description": "Багет: белая «Мозаика». Дополнения: авторская разработка. Декор: лошадка, ботиночки, жемчужины, луна, кристаллы Swarovski.",
+          "price": 54000,
+          "includes": [],
+          "sizeNote": "32×48 см",
+          "termNote": "",
+          "countNote": "3 (2D+3D)"
+        },
+        {
+          "id": "family-hands-of-family",
+          "name": "Ладони семьи",
+          "image": "images/catalog/family-hands-of-family.jpg",
+          "description": "Багет: широкий классический бело-золотистый, Италия. Дополнения: авторский дизайн с фигурной резкой в паспарту, 6 оттенков паспарту. Декор: корона, ангел, бантик, лёвка, лошадка, кристаллы Swarovski, жемчужины.",
+          "price": 173000,
+          "includes": [],
+          "sizeNote": "43×60 см",
+          "termNote": "",
+          "countNote": "4 (2D+3D)"
+        },
+        {
+          "id": "family-big-collage",
+          "name": "Коллаж для большой семьи",
+          "image": "images/catalog/family-big-collage.jpg",
+          "description": "Багет: широкий классический нежно-серый, Италия. Дополнения: авторский дизайн с фигурной резкой в паспарту, 9 фотографий. Декор: корона, ангел, котик, месяц, тапочки, кристаллы Swarovski, жемчужины.",
+          "price": 205000,
+          "includes": [],
+          "sizeNote": "43×85 см",
+          "termNote": "",
+          "countNote": "5 (2D+3D)"
+        },
+        {
+          "id": "family-mom-dad-baby-1",
+          "name": "Коллаж Мама+Папа+Малыш (нежно-серый)",
+          "image": "images/catalog/family-mom-dad-baby-1.jpg",
+          "description": "Багет: широкий классический нежно-серый, Италия. Дополнения: эксклюзивный дизайн с фигурной резкой в паспарту, авторская разработка, корона-метрика. Декор: корона, ангел, ботиночки, велосипед, кристаллы Swarovski, жемчужины.",
+          "price": 133000,
+          "includes": [],
+          "sizeNote": "54×66 см",
+          "termNote": "",
+          "countNote": "6 (2D+3D)"
+        },
+        {
+          "id": "family-mom-dad-baby-2",
+          "name": "Коллаж Мама+Папа+Малыш (бронзовый)",
+          "image": "images/catalog/family-mom-dad-baby-2.jpg",
+          "description": "Багет: широкий бронзовый. Дополнения: эксклюзивный дизайн с фигурной резкой в паспарту, авторская разработка, 5 фотографий. Декор: кружево, капельки, жемчужины.",
+          "price": 106500,
+          "includes": [],
+          "sizeNote": "58×66 см",
+          "termNote": "",
+          "countNote": "6 (2D+3D)"
+        },
+        {
+          "id": "family-three-kids",
+          "name": "Коллаж для троих деток",
+          "image": "images/catalog/family-three-kids.jpg",
+          "description": "Багет: орех с золотым кантом, Италия. Дополнения: три фотографии, двойное паспарту, авторский дизайн. Декор: бабочка, розочка, велосипед, кристаллы Swarovski, жемчужины.",
+          "price": 59500,
+          "includes": [],
+          "sizeNote": "38×57 см",
+          "termNote": "",
+          "countNote": "6 (2D+3D)"
+        },
+        {
+          "id": "family-two-kids-1",
+          "name": "Коллаж для двоих деток (стальной)",
+          "image": "images/catalog/family-two-kids-1.jpg",
+          "description": "Багет: стальной, Италия. Дополнения: шесть фотографий, двойное паспарту, авторский дизайн, интерьерный фон.",
+          "price": 48000,
+          "includes": [],
+          "sizeNote": "43×55 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "family-two-kids-2",
+          "name": "Коллаж для двоих деток (золотой с вензелями)",
+          "image": "images/catalog/family-two-kids-2.jpg",
+          "description": "Багет: золотой с вензелями, Италия. Дополнения: три фотографии, тройное паспарту, авторский дизайн, символ года. Декор: бантик, ангел, велосипед, ботиночки, кристаллы Swarovski, жемчужины.",
+          "price": 86500,
+          "includes": [],
+          "sizeNote": "39×50 см",
+          "termNote": "",
+          "countNote": "5 (2D+3D)"
+        },
+        {
+          "id": "family-two-in-frames",
+          "name": "2 ножки + 2 ладошки в отдельных окнах",
+          "image": "images/catalog/family-two-in-frames.jpg",
+          "description": "Багет: орех, Италия. Дополнения: тройное паспарту, метрика-коляска. Декор: жемчужины, кораблик, велосипед.",
+          "price": 49500,
+          "includes": [],
+          "sizeNote": "41×41 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "family-for-two-kids",
+          "name": "Для двоих деток",
+          "image": "images/catalog/family-for-two-kids.jpg",
+          "description": "Багет: молочный вензель, Италия. Дополнения: двойное паспарту, авторский дизайн. Декор: бабочка, розы, ботиночки, кристаллы Swarovski, жемчужины.",
+          "price": 49500,
+          "includes": [],
+          "sizeNote": "22×57 см",
+          "termNote": "",
+          "countNote": "3 (2D)"
+        },
+        {
+          "id": "family-collage-two-hands-feet-1",
+          "name": "Коллаж с двумя ручками и ножками (стальной)",
+          "image": "images/catalog/family-collage-two-hands-feet-1.jpg",
+          "description": "Багет: стальной, Италия. Дополнения: шесть фотографий, тройное паспарту, авторский дизайн.",
+          "price": 55500,
+          "includes": [],
+          "sizeNote": "39×52 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "family-collage-two-hands-feet-2",
+          "name": "Коллаж с двумя ручками и ножками (орех с золотым кантом)",
+          "image": "images/catalog/family-collage-two-hands-feet-2.jpg",
+          "description": "Багет: орех с золотым кантом, Италия. Дополнения: резной фигурный дизайн, тройное паспарту, авторский дизайн.",
+          "price": 54500,
+          "includes": [],
+          "sizeNote": "34×48 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "family-elongated-frame",
+          "name": "Вытянутая рама с двумя ручками и ножками",
+          "image": "images/catalog/family-elongated-frame.jpg",
+          "description": "Багет: молочный вензель, Италия. Дополнения: подсветка белая тёплая, резной фигурный дизайн, тройное паспарту, авторский дизайн. Декор: карета, розы, стрекоза, жемчужины, стразы Swarovski.",
+          "price": 74500,
+          "includes": [],
+          "sizeNote": "27×65 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "family-rainbow-collage",
+          "name": "Радужный коллаж с ладошками",
+          "image": "images/catalog/family-rainbow-collage.jpg",
+          "description": "Багет: белый ступенькой. Дополнения: авторский дизайн. Декор: машинка, мишка, клеевой декор, хром-бусины, жемчужины.",
+          "price": 92000,
+          "includes": [],
+          "sizeNote": "62×63 см",
+          "termNote": "",
+          "countNote": "2 (3D)"
+        },
+        {
+          "id": "family-things-collage",
+          "name": "Коллаж с ручками и ножками с личными вещичками",
+          "image": "images/catalog/family-things-collage.jpg",
+          "description": "Багет: белая «Мозаика». Дополнения: тройное паспарту, нестандартная компоновка окон, крепление бирки из роддома, первые царапки малыша. Декор: мишка, ботиночки, бантик, бусины, жемчужины.",
+          "price": 75500,
+          "includes": [],
+          "sizeNote": "48×56 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "title": "Детские слепки",
+      "items": [
+        {
+          "id": "kids-standard-hand-foot",
+          "name": "Стандарт «Ножка+ладошка»",
+          "image": "images/catalog/kids-standard-hand-foot.jpg",
+          "description": "Багет: серебристая «Мозаика». Дополнения: метрика. Декор: символ знака зодиака, велосипед, жемчужины, кристаллы Swarovski.",
+          "price": 35500,
+          "includes": [],
+          "sizeNote": "28×28 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-crown-1",
+          "name": "Ножка+ладошка с короной (серебро)",
+          "image": "images/catalog/kids-crown-1.jpg",
+          "description": "Багет: серебристый «Металлик». Дополнения: тройное паспарту, метрика, корона из дерева, деревянная надпись. Декор: жемчужины, балерина, кристаллы Swarovski.",
+          "price": 34500,
+          "includes": [],
+          "sizeNote": "28×36 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-two-photo",
+          "name": "Ножка+ладошка с двумя фото",
+          "image": "images/catalog/kids-two-photo.jpg",
+          "description": "Багет: белый стандартный. Декор: лошадка, жемчужины, велосипед, кристаллы Swarovski.",
+          "price": 33000,
+          "includes": [],
+          "sizeNote": "30×30 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-crown-4-gold",
+          "name": "2 ножки + 2 ладошки с короной (золотой перелив)",
+          "image": "images/catalog/kids-crown-4-gold.jpg",
+          "description": "Багет: золотой перелив. Дополнения: тройное паспарту, метрика-корона из дерева, деревянная надпись. Декор: жемчужины, фея, кристаллы Swarovski.",
+          "price": 46000,
+          "includes": [],
+          "sizeNote": "33×41 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-crown-4-monogram",
+          "name": "2 ножки + 2 ладошки с короной (золото с вензелями)",
+          "image": "images/catalog/kids-crown-4-monogram.jpg",
+          "description": "Багет: золотой с вензелями, Италия. Дополнения: тройное паспарту, метрика-корона из дерева, деревянная надпись. Декор: жемчужины, роза, стрекоза, кристаллы Swarovski.",
+          "price": 62000,
+          "includes": [],
+          "sizeNote": "33×41 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-collage-hand-foot",
+          "name": "Коллаж с ножкой и ладошкой",
+          "image": "images/catalog/kids-collage-hand-foot.jpg",
+          "description": "Багет: золотая «Мозаика». Дополнения: тройное паспарту, три фото, авторская разработка, объёмная надпись. Декор: жемчужины, розы, бабочки, кристаллы Swarovski.",
+          "price": 78500,
+          "includes": [],
+          "sizeNote": "31×73 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-heart-crown",
+          "name": "Сердечко с ножкой и ладошкой с короной",
+          "image": "images/catalog/kids-heart-crown.jpg",
+          "description": "Багет: розовый с золотинкой. Дополнения: метрика-корона из картона, надпись из картона. Декор: жемчужины, бабочка, кристаллы Swarovski.",
+          "price": 32000,
+          "includes": [],
+          "sizeNote": "25×36 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-photo-4-pink",
+          "name": "2 ножки + 2 ладошки с фотографией (розовый с серебром)",
+          "image": "images/catalog/kids-photo-4-pink.jpg",
+          "description": "Багет: розовый с серебром с вензелями, Италия. Дополнения: тройное паспарту, метрика «Символ года». Декор: жемчужины, бабочка, кристаллы Swarovski.",
+          "price": 59500,
+          "includes": [],
+          "sizeNote": "35×55 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-heart-standard",
+          "name": "Стандартное сердечко с ножкой и ладошкой",
+          "image": "images/catalog/kids-heart-standard.jpg",
+          "description": "Багет: белый ступенькой.",
+          "price": 24500,
+          "includes": [],
+          "sizeNote": "27×27 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-photo-4-white",
+          "name": "2 ножки + 2 ладошки с фотографиями (белый с вензелями)",
+          "image": "images/catalog/kids-photo-4-white.jpg",
+          "description": "Багет: белый классический с вензелями, Италия. Дополнения: тройное паспарту, метрика «Символ года». Декор: жемчужины, корона, велосипед, ангел, кристаллы Swarovski.",
+          "price": 55000,
+          "includes": [],
+          "sizeNote": "35×51 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-circle",
+          "name": "Ладошка и ножка в круге",
+          "image": "images/catalog/kids-circle.jpg",
+          "description": "Багет: белая «Мозаика». Дополнения: двойное паспарту, нестандартная компоновка окон, деревянная метрика в виде кеда. Декор: жемчужины, бабочка, бусины, стразы.",
+          "price": 37500,
+          "includes": [],
+          "sizeNote": "32×42 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-photo-4-bronze",
+          "name": "2 ножки + 2 ладошки с фотографиями (бронза с вензелями)",
+          "image": "images/catalog/kids-photo-4-bronze.jpg",
+          "description": "Багет: бронзовый с вензелями, Италия. Дополнения: три фотографии, тройное паспарту, метрика-корона. Декор: жемчужины, кристаллы Swarovski.",
+          "price": 57000,
+          "includes": [],
+          "sizeNote": "34×41 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-heart-gray",
+          "name": "Сердечко с ножкой и ладошкой (серебристый вензель)",
+          "image": "images/catalog/kids-heart-gray.jpg",
+          "description": "Багет: классический серо-серебристый вензель. Дополнения: надписи из картона с окраской в серебро.",
+          "price": 29000,
+          "includes": [],
+          "sizeNote": "29×38 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-butterfly",
+          "name": "Бабочка с ручками и ножками и фото",
+          "image": "images/catalog/kids-butterfly.jpg",
+          "description": "Багет: белый ступенькой. Дополнения: авторская разработка, паспарту фигурное. Декор: бусины хром, жемчужины, роза.",
+          "price": 52500,
+          "includes": [],
+          "sizeNote": "37×52 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "kids-two-sisters",
+          "name": "Две сестрёнки с фото",
+          "image": "images/catalog/kids-two-sisters.jpg",
+          "description": "Багет: молочный вензель. Дополнения: тройное паспарту. Декор: бабочка, жемчужины, кристаллы Swarovski.",
+          "price": 43000,
+          "includes": [],
+          "sizeNote": "30×45 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-hand-foot-photo",
+          "name": "Ножка+ладошка с фото",
+          "image": "images/catalog/kids-hand-foot-photo.jpg",
+          "description": "Багет: широкий классический светло-серый, Италия. Дополнения: тройное паспарту, метрика мишка Тедди. Декор: лошадка, жемчужины, кристаллы Swarovski.",
+          "price": 46500,
+          "includes": [],
+          "sizeNote": "31×47 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "kids-double-window",
+          "name": "2 ножки + 2 ладошки",
+          "image": "",
+          "description": "Багет: стальной, производства Италия. Дополнения: шесть фотографий, двойное паспарту, авторский дизайн.",
+          "price": 48000,
+          "includes": [],
+          "sizeNote": "43×55 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "title": "Премиальные композиции",
+      "items": [
+        {
+          "id": "premium-clock-yogurt",
+          "name": "Часы «С месяца до года» (йогуртовый)",
+          "image": "images/catalog/premium-clock-yogurt.jpg",
+          "description": "Багет: широкий классический йогуртового оттенка, Италия. Дополнения: фигурная резка в паспарту, расписной циферблат, часовой механизм, 5 оттенков паспарту. Декор: балеринка, ангел, бантик, ботиночки, кристаллы Swarovski.",
+          "price": 191500,
+          "includes": [],
+          "sizeNote": "70×70 см",
+          "termNote": "",
+          "countNote": "12 (2D)"
+        },
+        {
+          "id": "premium-clock-coffee",
+          "name": "Часы «С месяца до года» (кофе с молоком)",
+          "image": "images/catalog/premium-clock-coffee.jpg",
+          "description": "Багет: золотой классический с вензелями, Италия. Дополнения: бархатное паспарту «Кофе с молоком», фигурная резка в паспарту, расписной циферблат, часовой механизм.",
+          "price": 156500,
+          "includes": [],
+          "sizeNote": "65×65 см",
+          "termNote": "",
+          "countNote": "12 (2D)"
+        },
+        {
+          "id": "premium-clock-rainbow",
+          "name": "Часы «С месяца до года» (радуга)",
+          "image": "images/catalog/premium-clock-rainbow.jpg",
+          "description": "Багет: белая «Мозаика», Италия. Дополнения: подсветка цветная, фигурная резка в паспарту, расписной циферблат, часовой механизм, 7 оттенков паспарту. Декор: хром-бусины, жемчужины.",
+          "price": 173000,
+          "includes": [],
+          "sizeNote": "63×63 см",
+          "termNote": "",
+          "countNote": "12 (2D)"
+        },
+        {
+          "id": "premium-hollywood-1",
+          "name": "Голливудская звезда",
+          "image": "images/catalog/premium-hollywood-1.jpg",
+          "description": "Багет: белый ступенькой. Дополнения: авторская разработка.",
+          "price": 51500,
+          "includes": [],
+          "sizeNote": "55×57 см",
+          "termNote": "",
+          "countNote": "2 (2D)"
+        },
+        {
+          "id": "premium-hollywood-hands-feet-1",
+          "name": "Голливудская звезда с ручками и ножками (белое золото, подсветка)",
+          "image": "images/catalog/premium-hollywood-hands-feet-1.jpg",
+          "description": "Багет: белый с золотом. Дополнения: подсветка белая тёплая, авторская разработка, паспарту «Натуральное золото», метрика. Декор: бусины хром.",
+          "price": 89000,
+          "includes": [],
+          "sizeNote": "60×60 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "premium-hollywood-hands-feet-2",
+          "name": "Голливудская звезда с ручками и ножками (серебро)",
+          "image": "images/catalog/premium-hollywood-hands-feet-2.jpg",
+          "description": "Багет: серебро. Дополнения: авторская разработка, паспарту «Натуральное серебро», метрика. Декор: бусины хром.",
+          "price": 64000,
+          "includes": [],
+          "sizeNote": "55×55 см",
+          "termNote": "",
+          "countNote": "4 (2D)"
+        },
+        {
+          "id": "premium-parents-hands",
+          "name": "Ножки в ладонях родителей",
+          "image": "images/catalog/premium-parents-hands.jpg",
+          "description": "Багет: белоснежный глянец, Италия. Дополнения: бронзированные слепки, надпись на английском языке.",
+          "price": 89000,
+          "includes": [],
+          "sizeNote": "39×45 см",
+          "termNote": "",
+          "countNote": "4 (3D)"
+        },
+        {
+          "id": "premium-family-project",
+          "name": "Уникальный фамильный проект",
+          "image": "images/catalog/premium-family-project.jpg",
+          "description": "Багет: золотой с вензелями. Дополнения: авторский дизайн, символ фамилии.",
+          "price": 200000,
+          "includes": [],
+          "sizeNote": "53×66 см (общая композиция)",
+          "termNote": "",
+          "countNote": "3 (3D+2D)"
+        }
+      ]
+    }
+  ],
+  "showPackages": false,
+  "packages": [
+    {
+      "id": "base",
+      "name": "Базовый",
+      "highlight": false,
+      "itemsCount": "",
+      "size": "",
+      "design": "",
+      "frame": "",
+      "extras": "",
+      "productionTime": "",
+      "price": null
+    },
+    {
+      "id": "premium",
+      "name": "Премиум",
+      "highlight": true,
+      "itemsCount": "",
+      "size": "",
+      "design": "",
+      "frame": "",
+      "extras": "",
+      "productionTime": "",
+      "price": null
+    },
+    {
+      "id": "vip",
+      "name": "VIP",
+      "highlight": false,
+      "itemsCount": "",
+      "size": "",
+      "design": "",
+      "frame": "",
+      "extras": "",
+      "productionTime": "",
+      "price": null
+    }
+  ],
+  "additionalServices": [
+    {
+      "id": "extra-cast",
+      "name": "Дополнительный слепок",
+      "price": null
+    },
+    {
+      "id": "extra-figure",
+      "name": "Дополнительная фигурка",
+      "price": null
+    },
+    {
+      "id": "frame",
+      "name": "Рамка",
+      "price": null
+    },
+    {
+      "id": "engraving",
+      "name": "Индивидуальная надпись",
+      "price": null
+    },
+    {
+      "id": "decor",
+      "name": "Декор",
+      "price": null
+    },
+    {
+      "id": "coating",
+      "name": "Окрашивание / покрытие",
+      "price": null
+    },
+    {
+      "id": "extra-elements",
+      "name": "Дополнительные элементы",
+      "price": null
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Выбираете вариант",
+      "text": "Выбираете композицию и оформление."
+    },
+    {
+      "number": 2,
+      "title": "Записываетесь",
+      "text": "Согласовываем удобные дату и время."
+    },
+    {
+      "number": 3,
+      "title": "Создаём слепок",
+      "text": "Проходим процедуру создания формы."
+    },
+    {
+      "number": 4,
+      "title": "Получаете готовую работу",
+      "text": "После ручной обработки и оформления готовый слепок передаётся клиенту."
+    }
+  ],
+  "whyUs": [
+    {
+      "title": "12+ лет опыта",
+      "text": ""
+    },
+    {
+      "title": "Ручная работа",
+      "text": ""
+    },
+    {
+      "title": "Индивидуальное оформление",
+      "text": ""
+    },
+    {
+      "title": "Память, которая остаётся на всю жизнь",
+      "text": ""
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "category": "Семейные слепки",
+      "image": ""
+    },
+    {
+      "id": "g2",
+      "category": "Слепки пары",
+      "image": ""
+    },
+    {
+      "id": "g3",
+      "category": "Детские слепки",
+      "image": ""
+    },
+    {
+      "id": "g4",
+      "category": "Крупные планы",
+      "image": ""
+    },
+    {
+      "id": "g5",
+      "category": "Оформление",
+      "image": ""
+    },
+    {
+      "id": "g6",
+      "category": "Готовые работы в интерьере",
+      "image": ""
+    },
+    {
+      "id": "g7",
+      "category": "Семейные слепки",
+      "image": ""
+    },
+    {
+      "id": "g8",
+      "category": "Слепки пары",
+      "image": ""
+    },
+    {
+      "id": "g9",
+      "category": "Детские слепки",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Сколько времени занимает процедура?",
+      "answer": ""
+    },
+    {
+      "question": "Больно ли делать слепок?",
+      "answer": ""
+    },
+    {
+      "question": "С какого возраста можно делать слепок ребёнка?",
+      "answer": ""
+    },
+    {
+      "question": "Сколько времени изготавливается готовая работа?",
+      "answer": ""
+    },
+    {
+      "question": "Можно ли заказать индивидуальный дизайн?",
+      "answer": "Да — в разделе «Премиальные композиции» доступен индивидуальный дизайн. Уточните детали в WhatsApp."
+    },
+    {
+      "question": "Что входит в стоимость?",
+      "answer": "Состав зависит от выбранного слепка или комплекта — точный перечень указан в карточке товара в каталоге и в блоке «Что входит в стоимость слепка»."
+    },
+    {
+      "question": "Можно ли добавить рамку или оформление?",
+      "answer": "Да — рамка и дополнительное оформление доступны отдельными позициями в разделе «Можно дополнить заказ»."
+    },
+    {
+      "question": "Можно ли сделать слепок в подарок?",
+      "answer": ""
+    }
+  ],
+  "finalCta": {
+    "title": "Подарите себе память, которую можно держать в руках",
+    "text": "Выберите вариант в каталоге или напишите нам — поможем подобрать композицию под вашу семью и бюджет."
+  }
+}
