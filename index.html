@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slepok.kz — объёмные слепки рук и ног на память | Алматы</title>
+<meta name="description" content="Студия объёмных слепков рук и ног в Алматы. Семейные, детские и парные слепки ручной работы. Каталог, цены, состав комплектов.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ ШАПКА / НАВИГАЦИЯ ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#hero" class="logo">Slepok<span class="logo__dot">.</span>kz</a>
+
+    <nav class="nav" id="nav">
+      <a href="#hero" class="nav__link">Главная</a>
+      <a href="#catalog" class="nav__link">Каталог</a>
+      <a href="#packages" class="nav__link">Прайс</a>
+      <a href="#included" class="nav__link">Что входит</a>
+      <a href="#gallery" class="nav__link">Галерея</a>
+      <a href="#faq" class="nav__link">FAQ</a>
+    </nav>
+
+    <a href="#" class="btn btn--whatsapp btn--sm header__cta" data-wa-order="Здравствуйте! Хочу узнать подробнее о слепках.">
+      <svg class="icon" viewBox="0 0 24 24"><use href="#icon-whatsapp"/></svg>
+      Написать в WhatsApp
+    </a>
+
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero" class="mobile-menu__link">Главная</a>
+    <a href="#catalog" class="mobile-menu__link">Каталог</a>
+    <a href="#packages" class="mobile-menu__link">Прайс</a>
+    <a href="#included" class="mobile-menu__link">Что входит</a>
+    <a href="#gallery" class="mobile-menu__link">Галерея</a>
+    <a href="#faq" class="mobile-menu__link">FAQ</a>
+    <a href="#" class="btn btn--whatsapp mobile-menu__cta" data-wa-order="Здравствуйте! Хочу узнать подробнее о слепках.">Написать в WhatsApp</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title" id="heroTitle">Сохраним прикосновение на всю жизнь</h1>
+        <p class="hero__subtitle" id="heroSubtitle">Объёмные слепки рук и ног — уникальная память о ваших близких, созданная вручную.</p>
+        <div class="hero__actions">
+          <a href="#catalog" class="btn btn--primary">Посмотреть каталог</a>
+          <a href="#" class="btn btn--outline" data-wa-order="Здравствуйте! Хочу рассчитать стоимость слепка.">Рассчитать стоимость / WhatsApp</a>
+        </div>
+        <ul class="trust-bar" id="trustBar"></ul>
+      </div>
+      <div class="hero__media">
+        <div class="hero__image" id="heroImage" data-placeholder-icon="hands"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. КАТАЛОГ ============ -->
+  <section class="section" id="catalog">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Каталог слепков</h2>
+        <p class="section__lead">Выберите формат — от парных ладоней до больших семейных композиций. Точный состав и цена указаны в каждой карточке.</p>
+      </div>
+
+      <div class="catalog-tabs" id="catalogTabs"></div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 3. ЧТО ВХОДИТ В СТОИМОСТЬ ============ -->
+  <section class="section section--tinted" id="included">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Что входит в стоимость слепка?</h2>
+        <p class="section__lead">Ниже — полный перечень услуг, из которых складывается работа над слепком. В каждый конкретный тариф входит только часть пунктов — точный состав смотрите в карточке товара.</p>
+      </div>
+
+      <div class="included-grid" id="includedGrid"></div>
+
+      <div class="included-cta">
+        <button class="btn btn--outline" id="btnShowComplectation">Посмотреть комплектацию по вариантам</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. СРАВНЕНИЕ КОМПЛЕКТОВ ============ -->
+  <section class="section" id="packages">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Выберите свой вариант</h2>
+        <p class="section__lead">Три уровня комплектации — от базового до VIP.</p>
+      </div>
+      <div class="packages-grid" id="packagesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 5. ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ ============ -->
+  <section class="section section--tinted" id="addons">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Можно дополнить заказ</h2>
+        <p class="section__lead">Дополнительные позиции, которые можно добавить к любому слепку.</p>
+      </div>
+      <div class="addons-grid" id="addonsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 6. КАК ПРОХОДИТ ЗАКАЗ ============ -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Как проходит заказ</h2>
+      </div>
+      <div class="steps-grid" id="stepsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 7. ПОЧЕМУ ВЫБИРАЮТ НАС ============ -->
+  <section class="section section--dark" id="why">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title section__title--light">Почему выбирают нас</h2>
+      </div>
+      <div class="whyus-grid" id="whyusGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 8. ГАЛЕРЕЯ ============ -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Галерея работ</h2>
+        <p class="section__lead">Семейные и парные слепки, детские работы, крупные планы и оформление в интерьере.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ 9. FAQ ============ -->
+  <section class="section section--tinted" id="faq">
+    <div class="container container--narrow">
+      <div class="section__head">
+        <h2 class="section__title">Частые вопросы</h2>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- ============ 10. ФИНАЛЬНЫЙ CTA ============ -->
+  <section class="final-cta" id="finalCta">
+    <div class="container final-cta__inner">
+      <h2 class="final-cta__title" id="finalCtaTitle">Подарите себе память, которую можно держать в руках</h2>
+      <p class="final-cta__text" id="finalCtaText">Выберите вариант в каталоге или напишите нам — поможем подобрать композицию под вашу семью и бюджет.</p>
+      <div class="final-cta__actions">
+        <a href="#" class="btn btn--primary" data-wa-order="Здравствуйте! Хочу подобрать вариант слепка.">Написать в WhatsApp</a>
+        <a href="#packages" class="btn btn--outline btn--outline-light">Посмотреть прайс</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ ФУТЕР ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#hero" class="logo logo--footer">Slepok<span class="logo__dot">.</span>kz</a>
+      <p class="footer__tagline">Объёмные слепки рук и ног ручной работы. Алматы.</p>
+    </div>
+    <nav class="footer__nav">
+      <a href="#catalog">Каталог</a>
+      <a href="#packages">Прайс</a>
+      <a href="#included">Что входит</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="footer__contacts" id="footerContacts"></div>
+  </div>
+  <div class="footer__bottom container">
+    <span>© <span id="footerYear"></span> Slepok.kz</span>
+  </div>
+</footer>
+
+<!-- Плавающая кнопка WhatsApp -->
+<a href="#" class="fab-whatsapp" id="fabWhatsapp" data-wa-order="Здравствуйте! Хочу узнать подробнее о слепках." aria-label="Написать в WhatsApp">
+  <svg class="icon" viewBox="0 0 24 24"><use href="#icon-whatsapp"/></svg>
+</a>
+
+<!-- ============ МОДАЛЬНЫЕ ОКНА ============ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal__close" id="modalClose" aria-label="Закрыть">&times;</button>
+    <div class="modal__body" id="modalBody"></div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Закрыть">&times;</button>
+  <div class="lightbox__content" id="lightboxContent"></div>
+</div>
+
+<!-- ============ SVG-СПРАЙТ ИКОНОК (плейсхолдеры без реальных фото) ============ -->
+<svg style="display:none">
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.874.508 3.703 1.472 5.31L2 22l4.83-1.426a9.96 9.96 0 0 0 5.174 1.42h.004c5.518 0 10.004-4.486 10.004-10.004C22.012 6.486 17.526 2 12.004 2zm0 18.13h-.003a8.11 8.11 0 0 1-4.135-1.13l-.297-.176-3.062.904.918-2.994-.194-.307a8.104 8.104 0 0 1-1.251-4.32c0-4.484 3.65-8.134 8.128-8.134 2.171 0 4.211.847 5.746 2.383a8.07 8.07 0 0 1 2.379 5.75c-.001 4.484-3.65 8.024-8.229 8.024z"/></symbol>
+</svg>
+
+<script src="js/main.js"></script>
+</body>
+</html>
